@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer{
+    height: 8vh;
+    background-color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+main{
+    width: 100%;
+}
+.limita-area{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+section{
+    width: 100%;
+    margin: 30px auto;
+}
+header span{
+    color: #fff;
+    font-size: 36px;
+}
+.destaque{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-size: 38px;
+    margin: 40px 0;
+}
+figure{
+    width: 100%;
+    margin: 3px;
+}
+figure img{
+    width: 100%;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+figure::after{
+    content: "Propriedade da Marvel™";
+    height: 32px;
+    width: 100%;
+    background-color: #FF0000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobre, .links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+}
+.links{
+    width: 100%;
+}
+.sobre p{
+    margin: 10px 0;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+}
+
+a::before {
+    content: "....";
+    width: 20px;
+    height: 20px;   
+    background-image: url("https://www.devmedia.com.br/arquivos/cursos/css_pseudos/aula6/img/link.png");
+    background-size: 20px 20px;
+    margin: 0 6px 0 0;
+    
+}
